@@ -5,7 +5,7 @@
   padding: $smartPadding;
   
   @include tablet {
-    padding: $tabletPadding; 
+    padding: $tabletPadding;
   }
 
   @include desktop {
@@ -56,7 +56,7 @@
 
   &__date {
     color: $whiteColor;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -82,7 +82,7 @@
   &__text {
     width: 267px;
     color: $whiteColor;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -119,7 +119,7 @@
 
     @include desktop {
       display: flex;
-      font-family: Playfair Display;
+      font-family: Playfair Display, sans-serif;
       font-size: 14px;
       font-style: normal;
       font-weight: 700;
@@ -131,7 +131,7 @@
       &::after {
         display: block;
         position: relative;
-        content: '';
+        content: "";
         background-image: url(./pictures/divider.svg);
         color: $whiteColor;
         opacity: 0.3;
@@ -141,5 +141,5 @@
         top: 10px;
       }
     }
-  } 
+  }
 }

@@ -1,5 +1,5 @@
 h1 {
-  font-family: Playfair Display;
+  font-family: Playfair Display, sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -7,7 +7,7 @@ h1 {
   color: $whiteColor;
 
   @include tablet {
-      font-size: 72px;
+    font-size: 72px;
   }
 
   @include desktop {
@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  font-family: Playfair Display;
+  font-family: Playfair Display, sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-  font-family: Playfair Display;
+  font-family: Playfair Display, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;

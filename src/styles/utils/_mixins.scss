@@ -21,7 +21,6 @@
 @mixin tabletGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
-  grid-template-rows: repeat(5, 70px);
   gap: 30px;
   justify-content: space-between;
 }
@@ -29,7 +28,6 @@
 @mixin deskGrid {
   display: grid;
   grid-template-columns: repeat(12, 70px);
-  grid-template-rows: repeat(6, 60px);
   gap: 30px;
   justify-content: center;
 }

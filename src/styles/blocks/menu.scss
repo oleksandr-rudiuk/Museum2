@@ -7,7 +7,7 @@
   overflow-x: auto;
   
   @include tablet {
-    padding: $tabletPadding; 
+    padding: $tabletPadding;
   }
 
   @include desktop {
@@ -61,7 +61,7 @@
     }
 
     &--text {
-      font-family: Raleway;
+      font-family: Raleway, sans-serif;
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
@@ -70,7 +70,7 @@
     }
 
     &--time {
-      font-family: Raleway;
+      font-family: Raleway, sans-serif;
       font-size: 16px;
       font-style: normal;
       font-weight: 600;
@@ -93,7 +93,7 @@
     }
 
     &--word {
-      font-family: Raleway;
+      font-family: Raleway, sans-serif;
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
@@ -102,7 +102,7 @@
     }
 
     &--link {
-      font-family: Raleway;
+      font-family: Raleway, sans-serif;
       font-size: 16px;
       font-style: normal;
       font-weight: 600;
@@ -126,7 +126,7 @@
     }
 
     &--link {
-      font-family: Playfair Display;
+      font-family: Playfair Display, sans-serif;
       font-size: 20px;
       font-style: normal;
       font-weight: 700;
@@ -140,7 +140,7 @@
       }
 
       @include tablet {
-        font-family: Playfair Display;
+        font-family: Playfair Display, sans-serif;
         font-size: 48px;
         font-style: normal;
         font-weight: 700;
