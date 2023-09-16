@@ -2,7 +2,7 @@
   background-color: $whiteColor;
   padding: $smartPadding;
 
-  @include tablet {  
+  @include tablet {
     padding: $tabletPadding;
   }
 

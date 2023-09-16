@@ -3,7 +3,7 @@
   padding: 90px 20px 210px;
 
   @include tablet {
-    padding: $tabletPadding
+    padding: $tabletPadding;
   }
 
   @include desktop {

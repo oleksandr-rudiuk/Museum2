@@ -4,7 +4,7 @@
   background-color: $headerColor;
   z-index: 1;
   padding: $smartPadding;
-  overflow-x: auto;
+  overflow-y: scroll;
   
   @include tablet {
     padding: $tabletPadding;
